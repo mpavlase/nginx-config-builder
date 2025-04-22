@@ -52,7 +52,7 @@ def simple_configuration(port=8080):
     Also serves as an example of how to build configs using this module.
 
     :param int port: A port to populate the 'listen' paramter of the server block
-    :rtype str:
+    :rtype: str
     """
 
     http = Section(
